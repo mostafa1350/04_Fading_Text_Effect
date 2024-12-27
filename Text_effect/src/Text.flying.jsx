@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Text_flying = () => {
     return (
-        <div className='min-h-screen flex flex-col justify-center items-center bg-slate-300'>
+        <div className='MainFlying'>
             <ul>
                 <li>
                     ifnever.com

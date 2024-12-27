@@ -136,4 +136,16 @@
     @apply rotate-[410deg] translate-x-20 translate-y-[-200px] opacity-0 blur-[20px] text-green-300
   }
 
+  /* ================================================ */
+  .MainFlying{
+    @apply   min-h-screen flex flex-col justify-center items-center bg-slate-300
+
+  }
+
+  /* ===================================================*/
+
+  @keyframe animatefly{
+    
+  }
+
 }
