@@ -9,17 +9,84 @@
   }
   
   .li_Text{
-    @apply text-[100px] text-yellow-100 tracking-[20px] transition duration-[1.22s] font-sans;
+    @apply text-[100px] text-yellow-100 tracking-[20px] transition duration-[1.62s] font-sans;
   }
-  .ul_Text_Effect:hover .li_Text:nth-child(1){
-    @apply rotate-[2205deg] translate-x-[1320px] translate-y-[-200px] opacity-0 blur-[20px] text-green-300
+  /* ==================================== */
+  /* .ul_Text_Effect:hover .li_Text{
+    @apply rotate-[-2205deg] translate-x-[1320px] translate-y-[-200px] opacity-0 blur-[20px] text-green-300
+  } */
+  /* =================================== */
+
+  /* .ul_Text_Effect:hover .li_Text:nth-child(1){
+    @apply rotate-[2205deg] translate-x-[-1320px] translate-y-[200px] opacity-0 blur-[20px] text-green-300
   }
   .ul_Text_Effect:hover .li_Text:nth-child(2){
     @apply rotate-[2205deg] translate-x-[-1320px] translate-y-[200px] opacity-0 blur-[20px] text-green-300
   }
   .ul_Text_Effect:hover .li_Text:nth-child(3){
+    @apply rotate-[2205deg] translate-x-[-1320px] translate-y-[200px] opacity-0 blur-[20px] text-green-300
+  }
+  .ul_Text_Effect:hover .li_Text:nth-child(4){
+    @apply rotate-[2205deg] translate-x-[-1320px] translate-y-[200px] opacity-0 blur-[20px] text-green-300
+  }
+  .ul_Text_Effect:hover .li_Text:nth-child(5){
+    @apply rotate-[2205deg] translate-x-[-1320px] translate-y-[200px] opacity-0 blur-[20px] text-green-300
+  }
+  .ul_Text_Effect:hover .li_Text:nth-child(6){
+    @apply rotate-[2205deg] translate-x-[-1320px] translate-y-[200px] opacity-0 blur-[20px] text-green-300
+  }
+  .ul_Text_Effect:hover .li_Text:nth-child(7){
+    @apply rotate-[2205deg] translate-x-[1320px] translate-y-[-200px] opacity-0 blur-[20px] text-green-300
+  }
+  .ul_Text_Effect:hover .li_Text:nth-child(8){
+    @apply rotate-[2205deg] translate-x-[1320px] translate-y-[-200px] opacity-0 blur-[20px] text-green-300
+  }
+  .ul_Text_Effect:hover .li_Text:nth-child(9){
+    @apply rotate-[2205deg] translate-x-[1320px] translate-y-[-200px] opacity-0 blur-[20px] text-green-300
+  }
+  .ul_Text_Effect:hover .li_Text:nth-child(10){
+    @apply rotate-[2205deg] translate-x-[1320px] translate-y-[-200px] opacity-0 blur-[20px] text-green-300
+  }
+  .ul_Text_Effect:hover .li_Text:nth-child(11){
+    @apply rotate-[2205deg] translate-x-[1320px] translate-y-[-200px] opacity-0 blur-[20px] text-green-300
+  } */
+/* ================================================== */
+
+
+  .ul_Text_Effect:hover .li_Text:nth-child(1){
+    @apply rotate-[-2205deg] translate-x-[1320px] translate-y-[-200px] opacity-0 blur-[20px] text-green-300
+  }
+  .ul_Text_Effect:hover .li_Text:nth-child(2){
+    @apply rotate-[2205deg] translate-x-[-1320px] translate-y-[200px] opacity-0 blur-[20px] text-green-300
+  }
+  .ul_Text_Effect:hover .li_Text:nth-child(3){
+    @apply rotate-[-2205deg] translate-x-[0px] translate-y-[-850px] opacity-0 blur-[20px] text-green-300
+  }
+  .ul_Text_Effect:hover .li_Text:nth-child(4){
+    @apply rotate-[2205deg] translate-x-[620px] translate-y-[-650px] opacity-0 blur-[20px] text-green-300
+  }
+  .ul_Text_Effect:hover .li_Text:nth-child(5){
+    @apply rotate-[2205deg] translate-x-[-500px] translate-y-[-500px] opacity-0 blur-[20px] text-green-300
+  }
+  .ul_Text_Effect:hover .li_Text:nth-child(6){
+    @apply rotate-[2205deg] translate-x-[0px] translate-y-[850px] opacity-0 blur-[20px] text-green-300
+  }
+  .ul_Text_Effect:hover .li_Text:nth-child(7){
     @apply rotate-[2205deg] translate-x-[0px] translate-y-[-850px] opacity-0 blur-[20px] text-green-300
   }
+  .ul_Text_Effect:hover .li_Text:nth-child(8){
+    @apply rotate-[2205deg] translate-x-[-400px] translate-y-[0px] opacity-0 blur-[20px] text-green-300
+  }
+  .ul_Text_Effect:hover .li_Text:nth-child(9){
+    @apply rotate-[2205deg] translate-x-[-500px] translate-y-[-850px] opacity-0 blur-[20px] text-green-300
+  }
+  .ul_Text_Effect:hover .li_Text:nth-child(10){
+    @apply rotate-[2205deg] translate-x-[0px] translate-y-[-850px] opacity-0 blur-[20px] text-green-300
+  }
+  .ul_Text_Effect:hover .li_Text:nth-child(11){
+    @apply rotate-[2205deg] translate-x-[0px] translate-y-[850px] opacity-0 blur-[20px] text-green-300
+  } 
+
   /* .li_Text:nth-child(1){
     @apply delay-0;
   }
