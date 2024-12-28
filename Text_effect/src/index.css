@@ -138,8 +138,15 @@
 
   /* ================================================ */
   .MainFlying{
-    @apply   min-h-screen flex flex-col justify-center items-center bg-slate-300
+    @apply   min-h-screen flex flex-col justify-center items-center bg-slate-300 overflow-hidden;
 
+  }
+  /* install 3d properties in tailwind css */
+  .box{
+     @apply transform-style-3d;
+  }
+  .MainFlying .box span{
+    @apply absolute whitespace-nowrap text-[2.5rem] uppercase px-0 py-[10px] transform-style-3d translate-x-[-50%] translate-y-[-50%] shadow-sm;
   }
 
   /* ===================================================*/
