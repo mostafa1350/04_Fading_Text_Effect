@@ -4,6 +4,7 @@
 /* =================================== */
 
 @layer base{
+  
   .ul_Text_Effect{
     @apply flex m-0 p-0
   }
@@ -143,14 +144,19 @@
   }
   /* install 3d properties in tailwind css */
   .box{
-     @apply transform-style-3d;
+     @apply flex transform-style-3d;
   }
   .MainFlying .box span{
-    @apply absolute whitespace-nowrap text-[2.5rem] uppercase px-0 py-[10px] transform-style-3d translate-x-[-50%] translate-y-[-50%] shadow-sm;
+    @apply absolute whitespace-nowrap text-[2.5rem] uppercase px-0 py-[10px] transform-style-3d translate-x-[-50%] translate-y-[-50%] rotate-x-[calc(var(--i)*22.5deg)] translate-z-56 ;
   }
 
   /* ===================================================*/
-
+  .mycalc{
+    @apply flex mt-[80px] p-[20px] content-[calc(var(--i)*22.5deg)]
+  }
+  .mycalc::after{
+    /* @apply calc(var(--i)*22.5deg) */
+  }
   @keyframe animatefly{
     
   }
