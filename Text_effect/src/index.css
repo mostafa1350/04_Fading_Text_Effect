@@ -143,12 +143,26 @@
 
   }
   /* install 3d properties in tailwind css */
-  .box{
-     @apply flex transform-style-3d;
+  .MainFlying .box{
+     @apply flex  transform-style-3d;
   }
-  .MainFlying .box span{
-    @apply absolute whitespace-nowrap text-[2.5rem] uppercase px-0 py-[10px] transform-style-3d translate-x-[-50%] translate-y-[-50%] rotate-x-[calc(var(--i)*22.5deg)] translate-z-56 ;
+  .MainFlying .box .span1{
+    /* @apply absolute whitespace-nowrap text-[2.5rem] uppercase px-5 py-[10px] transform-style-3d translate-x-[-50%] translate-y-[-50%] rotate-x-[calc(var(--i)*72deg)] translate-z-56 ; */
+     @apply absolute whitespace-nowrap text-[2.5rem] uppercase px-5 py-[10px] transform-style-3d translate-x-[-50%] translate-y-[-50%] rotate-x-[0deg] translate-z-[100px] ; 
   }
+  .MainFlying .box .span2{
+     @apply absolute whitespace-nowrap text-[2.5rem] uppercase px-5 py-[10px] transform-style-3d translate-x-[-50%] translate-y-[-50%] rotate-x-[72deg] translate-z-[100px] ; 
+  }
+  .MainFlying .box .span3{
+     @apply absolute whitespace-nowrap text-[2.5rem] uppercase px-5 py-[10px] transform-style-3d translate-x-[-50%] translate-y-[-50%] rotate-x-[144deg] translate-z-[100px] ; 
+  }
+  .MainFlying .box .span4{
+     @apply absolute whitespace-nowrap text-[2.5rem] uppercase px-5 py-[10px] transform-style-3d translate-x-[-50%] translate-y-[-50%] rotate-x-[216deg] translate-z-[100px] ; 
+  }
+  .MainFlying .box .span5{
+     @apply absolute whitespace-nowrap text-[2.5rem] uppercase px-5 py-[10px] transform-style-3d translate-x-[-50%] translate-y-[-50%] rotate-x-[288deg] translate-z-[100px] ; 
+  }
+
 
   /* ===================================================*/
   .mycalc{

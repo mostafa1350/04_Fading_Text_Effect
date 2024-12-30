@@ -12,5 +12,9 @@ export default {
   },
   plugins: [
     require('tailwindcss-3d'),
+    require("@xpd/tailwind-3dtransforms"),
   ],
+  
 }
+
+// for using of 3-d utility, need to install "npm install -D tailwindcss-3d"
