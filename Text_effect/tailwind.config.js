@@ -12,7 +12,6 @@ export default {
   },
   plugins: [
     require('tailwindcss-3d'),
-    require("@xpd/tailwind-3dtransforms"),
   ],
   
 }
