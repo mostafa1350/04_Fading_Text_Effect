@@ -138,17 +138,22 @@
   }
 
   /* ================ Text Flying Part =================== */
-  .MainFlying{
-    @apply   min-h-screen flex flex-col justify-center items-center bg-slate-300 overflow-hidden;
+
+
+
+  .containerFlyText{
+    @apply flex justify-center items-center;
 
   }
   /* install 3d properties in tailwind css */
-  .MainFlying .box{
-     @apply flex bg-red-200  h-[250px] w-[500px] transform-style-3d perspective-500;
+  .containerFlyText .box{
+    @apply transform-style-3d animate-[wiggle_25s_linear_infinite] ;
   } 
-  .MainFlying .box span{
-     @apply absolute whitespace-nowrap text-[2.5rem] uppercase px-5 py-[10px] transform-style-3d translate-x-[-50%] translate-y-[-50%] rotate-x-[calc(var(--i)*22.5deg)] translate-z-[100px] ; 
+  
+  .containerFlyText .box span{
+     @apply absolute uppercase transform-style-3d whitespace-pre-wrap translate-x-[-50%] translate-y-[-50%] rotate-x-[calc(var(--i)*22.5deg)] perspective-500 translate-z-[300px];
   }
+  
   /* .MainFlying .box .span2{
      @apply absolute whitespace-nowrap text-[2.5rem] uppercase px-5 py-[10px] transform-style-3d translate-x-[-50%] translate-y-[-50%] rotate-x-[72deg] translate-z-[100px] ; 
   }
