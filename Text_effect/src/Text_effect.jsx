@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+
 const Text_effect = () => {
   return (
     <div className='min-h-screen flex flex-col justify-center items-center bg-blue-900'>
@@ -19,15 +19,7 @@ const Text_effect = () => {
         {/* <ul className='ul_Line'>
             <hr className="Horizontal_Line"/>
         </ul> */}
-        <ul>
-          <li className='text-[20px] mt-[150px] text-slate-200 hover:text-red-300 hover:text-[25px] hover:duration-500 hover:border-[1px] hover:border-yellow-200 hover:p-[10px]'>
-            <Link to='/textflying'>
-              Text Flying Page
-            </Link>
-            
-          </li>
-        </ul>
-        
+               
         
     </div>
   )
